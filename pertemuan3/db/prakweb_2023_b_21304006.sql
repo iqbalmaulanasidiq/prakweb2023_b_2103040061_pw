@@ -15,11 +15,11 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Dumping database structure for prakweb2023b_2103040061
-CREATE DATABASE IF NOT EXISTS `prakweb2023b_2103040061` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `prakweb2023b_2103040061`;
+-- Dumping database structure for  prakweb_2023_b_213040061
+CREATE DATABASE IF NOT EXISTS ` prakweb_2023_b_213040061` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE ` prakweb_2023_b_213040061`;
 
--- Dumping structure for table prakweb2023b_2103040061.buku
+-- Dumping structure for table  prakweb_2023_b_213040061.buku
 CREATE TABLE IF NOT EXISTS `buku` (
   `id_buku` int NOT NULL AUTO_INCREMENT,
   `gambar` varchar(255) NOT NULL,
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `buku` (
   PRIMARY KEY (`id_buku`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Dumping data for table prakweb2023b_2103040061.buku: ~10 rows (approximately)
+-- Dumping data for table  prakweb_2023_b_213040061.buku: ~10 rows (approximately)
 REPLACE INTO `buku` (`id_buku`, `gambar`, `judul`, `pengarang`, `penerbit`, `tahun_terbit`, `kategori`) VALUES
 	(1, '1.jpg', 'Harry Potter and the Sorcerer\'s Stone', 'J.K. Rowling', 'Scholastic', '1997', 'Fantasi'),
 	(2, '2.jpg', 'To Kill a Mockingbird', 'Harper Lee', 'J. B. Lippincott & Co.', '1960', 'Fiksi'),
